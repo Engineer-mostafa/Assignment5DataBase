@@ -49,5 +49,29 @@ namespace DBapplication
             if (Parent != null)
                 Parent.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            NewDepartment newDepartment = new NewDepartment();
+            newDepartment.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            empthatworkincity getall = new empthatworkincity();
+            getall.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            updateSalary ups = new updateSalary();
+            ups.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            EmployeeInfo ups = new EmployeeInfo();
+            ups.Show();
+        }
     }
 }

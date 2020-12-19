@@ -34,6 +34,9 @@ namespace DBapplication
             dataGridView1.Refresh();
         }
 
-       
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

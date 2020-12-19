@@ -32,6 +32,27 @@ namespace DBapplication
                 err.Append( "Input " + input + " is not a valid integer");
             }
             return returnData;
+        } 
+        public static Object isInteger(String input,StringBuilder err)
+        {
+            Object returnData = null;
+            try
+            {
+                int x = Convert.ToInt32(input);
+                if (x < 0 )
+                {
+                    err.Append( "/nYourInput " + input + " is a negative number");
+                }
+                else
+                {
+                    returnData = x;
+                }
+            }
+            catch
+            {
+                err.Append( "Input " + input + " is not a valid integer");
+            }
+            return returnData;
         }
 
     }

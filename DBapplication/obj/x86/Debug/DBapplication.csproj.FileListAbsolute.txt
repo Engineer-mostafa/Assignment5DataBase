@@ -27,3 +27,7 @@ F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\ob
 F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.csproj.CoreCompileInputs.cache
 F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.exe
 F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.pdb
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.NewDepartment.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.empthatworkincity.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.updateSalary.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.EmployeeInfo.resources
