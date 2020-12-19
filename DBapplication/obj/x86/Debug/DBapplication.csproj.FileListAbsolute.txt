@@ -1,0 +1,29 @@
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\bin\Debug\DBapplication.exe.config
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.csprojResolveAssemblyReference.cache
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.AddProject.resources
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.AdminLogin.resources
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Properties.Resources.resources
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Provided_Functionalities.resources
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.RetrieveProjects.resources
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.ViewEmployees.resources
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Welcome.resources
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.csproj.GenerateResource.Cache
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\bin\Debug\DBapplication.exe
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\bin\Debug\DBapplication.pdb
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.exe
+D:\DB\Lab5 - Accessing DB from C# App - part2_Inst\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.pdb
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\bin\Debug\DBapplication.exe.config
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\bin\Debug\DBapplication.exe
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\bin\Debug\DBapplication.pdb
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.csprojAssemblyReference.cache
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.AddProject.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.AdminLogin.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Properties.Resources.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Provided_Functionalities.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.RetrieveProjects.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.ViewEmployees.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.Welcome.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.csproj.GenerateResource.cache
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.csproj.CoreCompileInputs.cache
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.exe
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.pdb
