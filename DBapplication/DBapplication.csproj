@@ -60,6 +60,12 @@
     </Compile>
     <Compile Include="Controller.cs" />
     <Compile Include="DBManager.cs" />
+    <Compile Include="DepLoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepLoc.Designer.cs">
+      <DependentUpon>DepLoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,24 @@
     </Compile>
     <Compile Include="empthatworkincity.Designer.cs">
       <DependentUpon>empthatworkincity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FemaleDep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FemaleDep.Designer.cs">
+      <DependentUpon>FemaleDep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LName_Salary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LName_Salary.Designer.cs">
+      <DependentUpon>LName_Salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MinMax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MinMax.Designer.cs">
+      <DependentUpon>MinMax.cs</DependentUpon>
     </Compile>
     <Compile Include="NewDepartment.cs">
       <SubType>Form</SubType>
@@ -85,6 +109,12 @@
     </Compile>
     <Compile Include="Provided Functionalities.Designer.cs">
       <DependentUpon>Provided Functionalities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResearchDep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResearchDep.Designer.cs">
+      <DependentUpon>ResearchDep.cs</DependentUpon>
     </Compile>
     <Compile Include="RetrieveProjects.cs">
       <SubType>Form</SubType>
@@ -117,11 +147,23 @@
     <EmbeddedResource Include="AdminLogin.resx">
       <DependentUpon>AdminLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DepLoc.resx">
+      <DependentUpon>DepLoc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeInfo.resx">
       <DependentUpon>EmployeeInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="empthatworkincity.resx">
       <DependentUpon>empthatworkincity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FemaleDep.resx">
+      <DependentUpon>FemaleDep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LName_Salary.resx">
+      <DependentUpon>LName_Salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinMax.resx">
+      <DependentUpon>MinMax.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewDepartment.resx">
       <DependentUpon>NewDepartment.cs</DependentUpon>
@@ -137,6 +179,9 @@
     </Compile>
     <EmbeddedResource Include="Provided Functionalities.resx">
       <DependentUpon>Provided Functionalities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResearchDep.resx">
+      <DependentUpon>ResearchDep.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RetrieveProjects.resx">
       <DependentUpon>RetrieveProjects.cs</DependentUpon>

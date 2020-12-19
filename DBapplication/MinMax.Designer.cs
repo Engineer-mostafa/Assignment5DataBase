@@ -29,41 +29,59 @@
         private void InitializeComponent()
         {
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Title = new System.Windows.Forms.Label();
+            this.inserttitlepanel = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            this.inserttitlepanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView3
             // 
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(35, 30);
+            this.dataGridView3.Location = new System.Drawing.Point(25, 76);
+            this.dataGridView3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowTemplate.Height = 24;
-            this.dataGridView3.Size = new System.Drawing.Size(774, 229);
+            this.dataGridView3.Size = new System.Drawing.Size(339, 186);
             this.dataGridView3.TabIndex = 0;
             this.dataGridView3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // button1
+            // Title
             // 
-            this.button1.Location = new System.Drawing.Point(309, 327);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(192, 43);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Execute";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Title.AutoSize = true;
+            this.Title.Font = new System.Drawing.Font("Cooper Black", 16F);
+            this.Title.ForeColor = System.Drawing.Color.White;
+            this.Title.Location = new System.Drawing.Point(136, 13);
+            this.Title.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Title.Name = "Title";
+            this.Title.Size = new System.Drawing.Size(278, 25);
+            this.Title.TabIndex = 6;
+            this.Title.Text = "Get Min Max Avg Salary";
+            // 
+            // inserttitlepanel
+            // 
+            this.inserttitlepanel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.inserttitlepanel.Controls.Add(this.Title);
+            this.inserttitlepanel.Location = new System.Drawing.Point(-76, 0);
+            this.inserttitlepanel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.inserttitlepanel.Name = "inserttitlepanel";
+            this.inserttitlepanel.Size = new System.Drawing.Size(769, 52);
+            this.inserttitlepanel.TabIndex = 61;
             // 
             // MinMax
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(821, 429);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(393, 310);
+            this.Controls.Add(this.inserttitlepanel);
             this.Controls.Add(this.dataGridView3);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MinMax";
             this.Text = "MinMax";
             this.Load += new System.EventHandler(this.MinMax_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            this.inserttitlepanel.ResumeLayout(false);
+            this.inserttitlepanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -71,6 +89,7 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label Title;
+        private System.Windows.Forms.Panel inserttitlepanel;
     }
 }

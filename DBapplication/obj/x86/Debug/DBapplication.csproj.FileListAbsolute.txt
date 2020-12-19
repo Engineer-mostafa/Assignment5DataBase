@@ -31,3 +31,8 @@ F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\ob
 F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.empthatworkincity.resources
 F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.updateSalary.resources
 F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.EmployeeInfo.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.DepLoc.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.FemaleDep.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.LName_Salary.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.MinMax.resources
+F:\Mostafa\CMP 2\semester 1\DB-MS\labs\Lab 5\Code\DBapplication\DBapplication\obj\x86\Debug\DBapplication.ResearchDep.resources

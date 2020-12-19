@@ -108,7 +108,7 @@ namespace DBapplication
         //5-Get employees names and salaries for all employees 
         //who work in a project located at "Stafford" or in "Houston" 
         //and work less than 35 hours. (1 marks)
-        public DataTable Selectemployeesalaryandnames(string city1 , string city2 , int hours)
+        public DataTable Selectemployeesalaryandnames(string city1 , string city2 , double hours)
         {
             string query = "SELECT DISTINCT Fname,Minit,Lname,Salary"
                   +" FROM Employee E, Project P, Works_On W "
@@ -118,10 +118,11 @@ namespace DBapplication
 
                          +" W.Hours < "+ hours + " and"
 
-                        +"  P.Plocation = '"+ city1 +"'or"
+                        +"( P.Plocation = '"+ city1 +"'or"
 
-                        + "  P.Plocation = '" + city2 + "';";
+                        + "  P.Plocation = '" + city2 + "');";
 
+            MessageBox.Show(query);
             return dbMan.ExecuteReader(query);
         }
 
@@ -136,7 +137,46 @@ namespace DBapplication
             return dbMan.ExecuteNonQuery(query);
         }
 
+        public DataTable Female_Department(string Dname)
+        {
+            string query = "SELECT Fname,Minit,Lname,SSN,Sex,Salary FROM Employee E,Department D"
+             + " where E.Dno=D.Dnumber and E.Sex='F' and D.Dname='" + Dname + "' ;";
+            return dbMan.ExecuteReader(query);
+        }
 
+        public DataTable DepInLoc(string location)
+        {
+            string query = "SELECT Dname FROM Department D, Dept_Locations L"
+             + " where L.Dnumber=D.Dnumber and L.Dlocation='" + location + "';";
+
+            return dbMan.ExecuteReader(query);
+        }
+        public DataTable SelectLName_Salary()
+        {
+            string query = "SELECT Lname,Salary FROM Employee E,Department D"
+             + " where E.SSN=D.Mgr_ssn ;";
+            return dbMan.ExecuteReader(query);
+        }
+
+        public DataTable SelectDepName()
+        {
+            string query = "SELECT DISTINCT Dname FROM Department;";
+            return dbMan.ExecuteReader(query);
+        }
+
+        public DataTable Research_Department(string Dname)
+        {
+            string query = "SELECT Distinct Fname,Minit,Lname,Ssn FROM Employee E,Department D, Project P, Works_On W"
+             + " where E.Dno=D.Dnumber and D.Dname='" + Dname + "' OR D.Dnumber=P.Dnum and E.SSN=W.Essn and P.Pnumber=W.Pno and D.Dname='" + Dname + "' ;";
+            return dbMan.ExecuteReader(query);
+        }
+
+        public DataTable MinMax_Salary()
+        {
+            string query = "SELECT Max(Salary),Min(Salary),Avg(Salary) FROM Employee; ";
+
+            return dbMan.ExecuteReader(query);
+        }
         //7-Get the last names of department managers and their salaries. (1 mark)
         //8-Get Name and SSN for all employees working in "Research" department or working on projects controlled by "Research" department. (2 marks)
         //9-Get maximum, minimum and average salary for employees(1 mark)

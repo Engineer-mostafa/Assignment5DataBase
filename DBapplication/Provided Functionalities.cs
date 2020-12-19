@@ -73,5 +73,35 @@ namespace DBapplication
             EmployeeInfo ups = new EmployeeInfo();
             ups.Show();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            DepLoc DL = new DepLoc();
+            DL.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            FemaleDep FD = new FemaleDep();
+            FD.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            LName_Salary L = new LName_Salary();
+            L.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            MinMax M = new MinMax();
+            M.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            ResearchDep M = new ResearchDep();
+            M.Show();
+        }
     }
 }
